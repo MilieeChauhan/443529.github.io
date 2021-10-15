@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="login.css">
+  <script defer src="login.js"></script>
+</head>
+
+<body>
+  <main id="main-holder">
+    <h1 id="login-header">Login</h1>
+    
+    <div id="login-error-msg-holder">
+      <p id="login-error-msg">Invalid username <span id="error-msg-second-line">and/or password</span></p>
+    </div>
+    
+    <form id="signup-form">
+     <div><input type="email" placeholder="Enter Email" name="email" required></div> 
+     <div> <input type="Username" name="username" id="username-field" class="login-form-field" placeholder="Username"></div>
+     <div></div><input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password"></div>
+     <div></div><input type="repeat password" name="repeat password" id="password-field" class="login-form-field" placeholder="Re-type Password"></div>
+    
+     <div>
+     <label>
+      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+    </label>
+    </div>
+
+    <p>By creating an account you agree to our <a href="#" style="color:rgb(30, 64, 255)">Terms & Privacy</a>.</p>
+
+    <div class="clearfix">
+      <button type="button" class="cancelbtn">Cancel</button>
+      <button type="submit" class="signupbtn">Sign Up</button>
+    </div>
+
+    </form>
+
+
+  
+  </main>
+</body>
+
+</html>
