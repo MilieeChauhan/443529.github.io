@@ -1,9 +1,11 @@
 *, *::after, *::before{box-sizing: border-box;}
-body{background: none repeat scroll 0 0;font-family:'roboto','sans-serif';font-size: 15px;}
+body{background: white 0 0;font-family:'roboto','sans-serif';font-size: 15px;color: rgb(245, 243, 243);}
 
 label {
   display: block;
-  box-shadow: 0.1em 0.1em 0.1em rgb(165, 67, 67);
+  box-shadow: 0.1em 0.1em 0.1em rgb(2, 2, 2);
+  background-color: rgb(192, 8, 69);
+  border-style:groove;
   margin: 1em;
   border-radius: 3ex;
   padding: 5ex 2em;
