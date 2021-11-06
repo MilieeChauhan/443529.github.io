@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <title> Health Tracker</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="exclusives.css"> 
+    <link rel="stylesheet" href="css/responsive.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.css">
+    <script scr="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"> </script>
+    <script src="scroll.js"> </script>
+    <script src="Covid.js"> </script>
+
+
+</head>
+<body>
+    <header>
+<!--navbar-->
+            <!--navbar-->
+            <nav class="navbar">
+                <div class="inner-width">
+                    <a href="/" class="logo"></a>
+
+                    <div class="navbar-menu activate">
+                        <a href="index.html"> Home </a>
+                        <a href="Calorie.html">Calorie</a>
+                        <a href="hydrate.html">Hydrate</a>
+                        <a href="Covid.html">Covid</a>
+                        <a href="regularflo.html">Flo</a>
+                        <a href="heartbeat.html">Heartbeat</a>
+                        <a href="workout.html">workout</a>
+                        <a href="Login.html"> Login </a>
+                        <a href="Signup.html"> SignUp </a>
+                    </div>
+
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    </a>
+                </div>
+                </div>
+            </nav>
+
+             <!--Home-->
+                       <section id="home">
+                        <div class="inner-width">
+                            <div class="content">
+                                <h2>Daily Workout/h2>
+                                <div class="button"></div>
+                            </div>
+                        </div>
+                    </section> 
+
+    </header>
+  <div class="container text-center">
+    <h1 class="">Covid-19 Cases In Australia<span id="country"></span> <img src="" alt="" id="flag"></h1>
+    <div class="card-deck text-center">
+      <div class="card mb-2">
+        <div class="card-body bg-primary text-light rounded">
+          <h5 class="card-title"><i class="fas fa-tachometer-alt fa-2x"></i></h5>
+          <h4 class="card-text">Active Cases</h4>
+          <p class="card-text badge badge-outline-light" id="Active_Cases">21</p>
+        </div>
+      </div>
+      <div class="card mb-2">
+        <div class="card-body bg-info text-light rounded">
+          <h5 class="card-title"><i class="fas fa-list fa-2x"></i></h5>
+          <h4 class="card-text">Total Cases</h4>
+          <p class="card-text badge badge-outline-light" id="Total_Cases">21</p>
+        </div>
+      </div>
+      <div class="card mb-2">
+        <div class="card-body bg-warning text-light rounded">
+          <h5 class="card-title"><i class="fas fa-times-circle fa-2x"></i></h5>
+          <h4 class="card-text">Critical Cases</h4>
+          <p class="card-text badge badge-outline-light" id="Critical_Cases">21</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body bg-danger text-light rounded">
+          <h5 class="card-title"><i class="fa fa-times fa-2x"></i></h5>
+          <h4 class="card-text">Total Death</h4>
+          <p class="card-text badge badge-outline-light" id="Total_Death">21</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body bg-success text-light rounded">
+          <h5 class="card-title"><i class="fas fa-check-square fa-2x"></i></h5>
+          <h4 class="card-text">Recovered Cases</h4>
+          <p class="card-text badge badge-outline-light" id="Recovered_Cases">21</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body bg-secondary text-light rounded">
+          <h5 class="card-title"><i class="fas fa-eye fa-2x"></i></h5>
+          <h4 class="card-text">Total Test Done</h4>
+          <p class="card-text badge badge-outline-light" id="Total_Test_Done">21</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="footer">
+    <h4>COPYRIGHT</h4>
+    <p> Stay updated with Health</p>
+</section>
+
+<script src="js/script.js"></script>                   
+</body>
+
+
+
+</html>
